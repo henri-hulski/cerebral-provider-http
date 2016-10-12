@@ -4,8 +4,8 @@ Based on prior art from cerebral-module-http
 
 ### How to use
 ```js
-import { Controller } from 'cerebral';
-import { HttpProvider } from 'cerebral-http';
+import { Controller } from 'cerebral'
+import { HttpProvider } from 'cerebral-http'
 
 const controller = Controller({
   state: {
