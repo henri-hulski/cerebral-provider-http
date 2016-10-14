@@ -1,12 +1,16 @@
-# cerebral-http
+# cerebral-provider-http
 HTTP Provider for Cerebral2
 Based on prior art from [cerebral-module-http](https://github.com/cerebral/cerebral-module-http)
+
+### Todos
+Create npm install
+Test FileUpload
 
 ### How to use
 ```js
 import { Controller } from 'cerebral'
-import HttpProvider from 'cerebral-http'
-import { FileUpload } from 'cerebral-http'
+import HttpProvider from 'cerebral-provider-http'
+import { FileUpload } from 'cerebral-provider-http'
 
 const controller = Controller({
   state: {
